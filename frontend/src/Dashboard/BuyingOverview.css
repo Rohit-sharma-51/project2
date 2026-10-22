@@ -1,0 +1,85 @@
+/* Banner */
+.banner {
+  background: linear-gradient(to right, #4a90e2, #2f5fd0);
+  color: white;
+  padding: 25px;
+  border-radius: 12px;
+}
+
+/* Stats Card */
+.stat-card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Icons */
+.icon {
+  font-size: 20px;
+  padding: 12px;
+  border-radius: 50%;
+}
+
+.blue {
+  background: #e3f2fd;
+  color: #1976d2;
+}
+
+.green {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.purple {
+  background: #f3e5f5;
+  color: #8e24aa;
+}
+
+.orange {
+  background: #fff3e0;
+  color: #ef6c00;
+}
+
+/* Boxes */
+.box {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 12px;
+  height: 100%;
+}
+
+/* Wishlist items */
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+/* Extra cards */
+.extra-card {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 12px;
+  height: 100%;
+}
+
+/* Chart */
+.chart-box {
+  height: 220px;
+  border: 2px dashed #ccc;
+  border-radius: 10px;
+}
+
+.chart-label {
+  text-align: center;
+  margin-top: 10px;
+  color: #3b82f6;
+}

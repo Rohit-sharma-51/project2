@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+ /* background-color: #eef5f1; */
+ background-color: blue;
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+.hover-card {
+    transition: transform 0.3s ease;
+}
+
+.hover-card:hover {
+    transform: translateY(-10px);
+    background-color: lightgreen;
+}
+
+.hover-card2:hover {
+    /* transform: translateY(-10px); */
+    /* background-color: yellow; */
+}
+
+.margin{
+  margin-bottom: 90px;
+}
+
+.size{
+  font-size: 48px;
+}
+
+.call-btn {
+  background: linear-gradient(90deg, #2e8b57, #66c28a);
+  color: white;
+  font-size: 16px;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+/* Hover effect 🔥 */
+.call-btn:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+}
+
+/* .color{
+background-color: lightblue;
+}
+
+.colors{
+background-color: white;
+}
+
+
+.background{
+  background-color:white;
+} */
+
+
+/* :root {
+  --bs-body-bg: blue;
+} */
+
+body {
+  background-color:  #eef5f1 !important;
+}
+
+
+.nav-item {
+  text-decoration: none;
+  color: black;
+  padding-bottom: 5px;
+}
+
+.active-link {
+  border-bottom: 2px solid blue;
+  font-weight: bold;
+}
